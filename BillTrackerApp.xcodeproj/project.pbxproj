@@ -1,0 +1,668 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A1291C132666029F00DA8F15 /* AddBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1291C122666029F00DA8F15 /* AddBillController.swift */; };
+		A1291C1D266631A800DA8F15 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0372B265E160C006F0C50 /* ViewController.swift */; };
+		A1291C28266638D400DA8F15 /* AddBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1291C122666029F00DA8F15 /* AddBillController.swift */; };
+		A1565455266782AE00682629 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0372B265E160C006F0C50 /* ViewController.swift */; };
+		A1565459266782B200682629 /* AddBillController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1291C122666029F00DA8F15 /* AddBillController.swift */; };
+		A156547826678B4100682629 /* IntentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0374F265E1B52006F0C50 /* IntentViewController.swift */; };
+		A156547C26678B4C00682629 /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B03751265E1B52006F0C50 /* MainInterface.storyboard */; };
+		A1A5AB7426651445005C70A5 /* BillTrackerIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A1B03765265E1C86006F0C50 /* BillTrackerIntents.intentdefinition */; };
+		A1A5AB7B26651447005C70A5 /* BillTrackerIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A1B03765265E1C86006F0C50 /* BillTrackerIntents.intentdefinition */; };
+		A1B03728265E160C006F0C50 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B03727265E160C006F0C50 /* AppDelegate.swift */; };
+		A1B0372A265E160C006F0C50 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B03729265E160C006F0C50 /* SceneDelegate.swift */; };
+		A1B0372C265E160C006F0C50 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B0372B265E160C006F0C50 /* ViewController.swift */; };
+		A1B0372F265E160C006F0C50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B0372D265E160C006F0C50 /* Main.storyboard */; };
+		A1B03731265E160C006F0C50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1B03730265E160C006F0C50 /* Assets.xcassets */; };
+		A1B03734265E160C006F0C50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1B03732265E160C006F0C50 /* LaunchScreen.storyboard */; };
+		A1B03744265E1B51006F0C50 /* IntentHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1B03743265E1B51006F0C50 /* IntentHandler.swift */; };
+		A1B0374D265E1B52006F0C50 /* IntentsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A1B0374C265E1B52006F0C50 /* IntentsUI.framework */; };
+		A1B03757265E1B52006F0C50 /* BillTrackerIntentUI.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B0374A265E1B52006F0C50 /* BillTrackerIntentUI.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1B0375A265E1B52006F0C50 /* BillTrackerIntent.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = A1B03741265E1B51006F0C50 /* BillTrackerIntent.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		A1B03766265E1C86006F0C50 /* BillTrackerIntents.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = A1B03765265E1C86006F0C50 /* BillTrackerIntents.intentdefinition */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A1B03755265E1B52006F0C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B0371C265E160C006F0C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B03749265E1B52006F0C50;
+			remoteInfo = BillTrackerIntentUI;
+		};
+		A1B03758265E1B52006F0C50 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A1B0371C265E160C006F0C50 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A1B03740265E1B51006F0C50;
+			remoteInfo = BillTrackerIntent;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		A1B03761265E1B52006F0C50 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				A1B0375A265E1B52006F0C50 /* BillTrackerIntent.appex in Embed App Extensions */,
+				A1B03757265E1B52006F0C50 /* BillTrackerIntentUI.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		A1291C122666029F00DA8F15 /* AddBillController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBillController.swift; sourceTree = "<group>"; };
+		A1291C242666374300DA8F15 /* BillTrackerIntent.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BillTrackerIntent.entitlements; sourceTree = "<group>"; };
+		A156547726678B3500682629 /* BillTrackerIntentUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BillTrackerIntentUI.entitlements; sourceTree = "<group>"; };
+		A1B03724265E160C006F0C50 /* BillTrackerApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BillTrackerApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B03727265E160C006F0C50 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A1B03729265E160C006F0C50 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A1B0372B265E160C006F0C50 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A1B0372E265E160C006F0C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A1B03730265E160C006F0C50 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A1B03733265E160C006F0C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A1B03735265E160C006F0C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B0373C265E18D7006F0C50 /* BillTrackerApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BillTrackerApp.entitlements; sourceTree = "<group>"; };
+		A1B03741265E1B51006F0C50 /* BillTrackerIntent.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BillTrackerIntent.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B03743265E1B51006F0C50 /* IntentHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentHandler.swift; sourceTree = "<group>"; };
+		A1B03745265E1B51006F0C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B0374A265E1B52006F0C50 /* BillTrackerIntentUI.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BillTrackerIntentUI.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		A1B0374C265E1B52006F0C50 /* IntentsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IntentsUI.framework; path = System/Library/Frameworks/IntentsUI.framework; sourceTree = SDKROOT; };
+		A1B0374F265E1B52006F0C50 /* IntentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntentViewController.swift; sourceTree = "<group>"; };
+		A1B03752265E1B52006F0C50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/MainInterface.storyboard; sourceTree = "<group>"; };
+		A1B03754265E1B52006F0C50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1B03765265E1C86006F0C50 /* BillTrackerIntents.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = BillTrackerIntents.intentdefinition; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A1B03721265E160C006F0C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B0373E265E1B51006F0C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B03747265E1B52006F0C50 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B0374D265E1B52006F0C50 /* IntentsUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A1B0371B265E160C006F0C50 = {
+			isa = PBXGroup;
+			children = (
+				A1B03726265E160C006F0C50 /* BillTrackerApp */,
+				A1B03742265E1B51006F0C50 /* BillTrackerIntent */,
+				A1B0374E265E1B52006F0C50 /* BillTrackerIntentUI */,
+				A1B0374B265E1B52006F0C50 /* Frameworks */,
+				A1B03725265E160C006F0C50 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A1B03725265E160C006F0C50 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A1B03724265E160C006F0C50 /* BillTrackerApp.app */,
+				A1B03741265E1B51006F0C50 /* BillTrackerIntent.appex */,
+				A1B0374A265E1B52006F0C50 /* BillTrackerIntentUI.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A1B03726265E160C006F0C50 /* BillTrackerApp */ = {
+			isa = PBXGroup;
+			children = (
+				A1B03765265E1C86006F0C50 /* BillTrackerIntents.intentdefinition */,
+				A1B0373C265E18D7006F0C50 /* BillTrackerApp.entitlements */,
+				A1B03727265E160C006F0C50 /* AppDelegate.swift */,
+				A1B03729265E160C006F0C50 /* SceneDelegate.swift */,
+				A1B0372B265E160C006F0C50 /* ViewController.swift */,
+				A1291C122666029F00DA8F15 /* AddBillController.swift */,
+				A1B0372D265E160C006F0C50 /* Main.storyboard */,
+				A1B03730265E160C006F0C50 /* Assets.xcassets */,
+				A1B03732265E160C006F0C50 /* LaunchScreen.storyboard */,
+				A1B03735265E160C006F0C50 /* Info.plist */,
+			);
+			path = BillTrackerApp;
+			sourceTree = "<group>";
+		};
+		A1B03742265E1B51006F0C50 /* BillTrackerIntent */ = {
+			isa = PBXGroup;
+			children = (
+				A1291C242666374300DA8F15 /* BillTrackerIntent.entitlements */,
+				A1B03743265E1B51006F0C50 /* IntentHandler.swift */,
+				A1B03745265E1B51006F0C50 /* Info.plist */,
+			);
+			path = BillTrackerIntent;
+			sourceTree = "<group>";
+		};
+		A1B0374B265E1B52006F0C50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A1B0374C265E1B52006F0C50 /* IntentsUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A1B0374E265E1B52006F0C50 /* BillTrackerIntentUI */ = {
+			isa = PBXGroup;
+			children = (
+				A156547726678B3500682629 /* BillTrackerIntentUI.entitlements */,
+				A1B0374F265E1B52006F0C50 /* IntentViewController.swift */,
+				A1B03751265E1B52006F0C50 /* MainInterface.storyboard */,
+				A1B03754265E1B52006F0C50 /* Info.plist */,
+			);
+			path = BillTrackerIntentUI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A1B03723265E160C006F0C50 /* BillTrackerApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B03738265E160C006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerApp" */;
+			buildPhases = (
+				A1B03720265E160C006F0C50 /* Sources */,
+				A1B03721265E160C006F0C50 /* Frameworks */,
+				A1B03722265E160C006F0C50 /* Resources */,
+				A1B03761265E1B52006F0C50 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A1B03756265E1B52006F0C50 /* PBXTargetDependency */,
+				A1B03759265E1B52006F0C50 /* PBXTargetDependency */,
+			);
+			name = BillTrackerApp;
+			productName = BillTrackerApp;
+			productReference = A1B03724265E160C006F0C50 /* BillTrackerApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A1B03740265E1B51006F0C50 /* BillTrackerIntent */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B0375E265E1B52006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerIntent" */;
+			buildPhases = (
+				A1B0373D265E1B51006F0C50 /* Sources */,
+				A1B0373E265E1B51006F0C50 /* Frameworks */,
+				A1B0373F265E1B51006F0C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillTrackerIntent;
+			productName = BillTrackerIntent;
+			productReference = A1B03741265E1B51006F0C50 /* BillTrackerIntent.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		A1B03749265E1B52006F0C50 /* BillTrackerIntentUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A1B0375B265E1B52006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerIntentUI" */;
+			buildPhases = (
+				A1B03746265E1B52006F0C50 /* Sources */,
+				A1B03747265E1B52006F0C50 /* Frameworks */,
+				A1B03748265E1B52006F0C50 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BillTrackerIntentUI;
+			productName = BillTrackerIntentUI;
+			productReference = A1B0374A265E1B52006F0C50 /* BillTrackerIntentUI.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A1B0371C265E160C006F0C50 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					A1B03723265E160C006F0C50 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					A1B03740265E1B51006F0C50 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					A1B03749265E1B52006F0C50 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = A1B0371F265E160C006F0C50 /* Build configuration list for PBXProject "BillTrackerApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A1B0371B265E160C006F0C50;
+			productRefGroup = A1B03725265E160C006F0C50 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A1B03723265E160C006F0C50 /* BillTrackerApp */,
+				A1B03740265E1B51006F0C50 /* BillTrackerIntent */,
+				A1B03749265E1B52006F0C50 /* BillTrackerIntentUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A1B03722265E160C006F0C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1B03734265E160C006F0C50 /* LaunchScreen.storyboard in Resources */,
+				A1B03731265E160C006F0C50 /* Assets.xcassets in Resources */,
+				A1B0372F265E160C006F0C50 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B0373F265E1B51006F0C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B03748265E1B52006F0C50 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A156547C26678B4C00682629 /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A1B03720265E160C006F0C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1291C132666029F00DA8F15 /* AddBillController.swift in Sources */,
+				A1B03766265E1C86006F0C50 /* BillTrackerIntents.intentdefinition in Sources */,
+				A1B0372C265E160C006F0C50 /* ViewController.swift in Sources */,
+				A1B03728265E160C006F0C50 /* AppDelegate.swift in Sources */,
+				A1B0372A265E160C006F0C50 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B0373D265E1B51006F0C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1291C1D266631A800DA8F15 /* ViewController.swift in Sources */,
+				A1A5AB7426651445005C70A5 /* BillTrackerIntents.intentdefinition in Sources */,
+				A1291C28266638D400DA8F15 /* AddBillController.swift in Sources */,
+				A1B03744265E1B51006F0C50 /* IntentHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A1B03746265E1B52006F0C50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A1565455266782AE00682629 /* ViewController.swift in Sources */,
+				A1A5AB7B26651447005C70A5 /* BillTrackerIntents.intentdefinition in Sources */,
+				A156547826678B4100682629 /* IntentViewController.swift in Sources */,
+				A1565459266782B200682629 /* AddBillController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A1B03756265E1B52006F0C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B03749265E1B52006F0C50 /* BillTrackerIntentUI */;
+			targetProxy = A1B03755265E1B52006F0C50 /* PBXContainerItemProxy */;
+		};
+		A1B03759265E1B52006F0C50 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A1B03740265E1B51006F0C50 /* BillTrackerIntent */;
+			targetProxy = A1B03758265E1B52006F0C50 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A1B0372D265E160C006F0C50 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B0372E265E160C006F0C50 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B03732265E160C006F0C50 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B03733265E160C006F0C50 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		A1B03751265E1B52006F0C50 /* MainInterface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A1B03752265E1B52006F0C50 /* Base */,
+			);
+			name = MainInterface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A1B03736265E160C006F0C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A1B03737265E160C006F0C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A1B03739265E160C006F0C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BillTrackerApp/BillTrackerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerApp/Info.plist;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B0373A265E160C006F0C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = BillTrackerApp/BillTrackerApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerApp/Info.plist;
+				INTENTS_CODEGEN_LANGUAGE = Swift;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B0375C265E1B52006F0C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BillTrackerIntentUI/BillTrackerIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp.BillTrackerIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B0375D265E1B52006F0C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BillTrackerIntentUI/BillTrackerIntentUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerIntentUI/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp.BillTrackerIntentUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A1B0375F265E1B52006F0C50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BillTrackerIntent/BillTrackerIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp.BillTrackerIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A1B03760265E1B52006F0C50 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BillTrackerIntent/BillTrackerIntent.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = K7XJG666ZW;
+				INFOPLIST_FILE = BillTrackerIntent/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.BillTrackerApp.BillTrackerIntent;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A1B0371F265E160C006F0C50 /* Build configuration list for PBXProject "BillTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B03736265E160C006F0C50 /* Debug */,
+				A1B03737265E160C006F0C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B03738265E160C006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B03739265E160C006F0C50 /* Debug */,
+				A1B0373A265E160C006F0C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B0375B265E1B52006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerIntentUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0375C265E1B52006F0C50 /* Debug */,
+				A1B0375D265E1B52006F0C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A1B0375E265E1B52006F0C50 /* Build configuration list for PBXNativeTarget "BillTrackerIntent" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A1B0375F265E1B52006F0C50 /* Debug */,
+				A1B03760265E1B52006F0C50 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A1B0371C265E160C006F0C50 /* Project object */;
+}
